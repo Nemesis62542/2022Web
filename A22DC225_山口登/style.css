@@ -1,0 +1,133 @@
+html{
+    background-color: rgb(242, 242, 242);
+    font-family: aoyanagi;
+}
+
+body{
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+@font-face {
+    font-family: aoyanagi;
+    src: url(Fonts/aoyagireisyosimo_ttf_2_01.ttf);
+}
+
+@keyframes fadeIn{
+    0% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.is-fadein {
+    animation: fadeIn;
+}
+
+div{
+    text-align: center;
+}
+
+img{
+    width: 90%;
+}
+
+p{
+    font-size: 26px;
+    line-height: 45px;
+    text-align: start;
+    writing-mode: vertical-rl;
+}
+
+#page{
+    display: inline-block;
+    position: relative;
+}
+
+.title img{
+    animation: 3s fadeIn;
+}
+
+.intro_text{
+    top: 7%;
+    left: 35%;
+    position: absolute;
+}
+
+.intro_text_2{
+    top: 15%;
+    left: 12%;
+    position: absolute;
+}
+
+.hougen_text{
+    top: 5%;
+    right: 0%;
+    position: absolute;
+}
+
+.hougen_text_2{
+    top: 35%;
+    right: 13%;
+    position: absolute;
+}
+
+.senpaku_text{
+    top: 2%;
+    right: 3%;
+    position: absolute;
+}
+
+.senpaku_text_2{
+    top: 60%;
+    left: 16%;
+    position: absolute;
+}
+
+.sekihi_text{
+    top: 5%;
+    right: 10%;
+    position: absolute;
+}
+
+.sekihi_text_2{
+    top: 5%;
+    left: 10%;
+    position: absolute;
+}
+
+.theEnd{
+    width: 1400px;
+    height: 645px;
+}
+
+.theEnd_text{
+    top: 20%;
+    left: 38%;
+    writing-mode: vertical-rl;
+    position: absolute;
+}
+
+.theEnd_text p{
+    font-size: 100px;
+}
+
+.credit{
+    bottom: 5%;
+    right: 5%;
+    position: absolute;
+}
+
+.credit p{
+    line-height: 25px;
+    font-size: 20px;
+    writing-mode: horizontal-tb;
+}
+
+.credit span{
+    font-size: 30px;
+}
